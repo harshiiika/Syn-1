@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Employee</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="{{asset('css/emp.css') }}">
+  <link rel="stylesheet" href= "{{asset('css/emp.css')}}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
@@ -15,8 +15,7 @@
 <body>
   <div class="header">
     <div class="logo">
-    <!--Synthesis logo goes here in the header-->
-      <img src="{{asset('images/logo-big.png')}}" class="img">
+      <img src="{{asset('images/logo.png.jpg')}}" class="img">
       <button class="toggleBtn" id="toggleBtn"><i class="fa-solid fa-bars"></i></button>
     </div>
     <div class="pfp">
@@ -41,14 +40,13 @@
     </div>
   </div>
   <div class="main-container">
-<!--Here is the left side accordian with all options - user managements, onboarding etc.-->
+
     <div class="left" id="sidebar">
 
       <div class="text" id="text">
         <h6>ADMIN</h6>
         <p>synthesisbikaner@gmail.com</p>
       </div>
-      <!--The main accordian goes here along with its bootstrap code-->
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -234,7 +232,6 @@
         </div>
       </div>
     </div>
-    <!--The right side where the tables and options to edit tables appear.-->
     <div class="right" id="right">
       <div class="top">
         <div class="top-text">
@@ -515,7 +512,6 @@
         </table>
 
       </div>
-      <!--Pagination-->
       <div class="footer">
         <div class="left-footer">
           <p>Showing 1 to 10 of 10 Enteries</p>
@@ -536,7 +532,7 @@
     </div>
   </div>
   </div>
-<!--All the modals go here.--> 
+
   <div class="modal fade" id="exampleModalOne" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
     <div class="modal-dialog modal-dialog-scrollable">
@@ -806,6 +802,6 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-<script src="{{asset('js/emp.js') }}"></script>
+<script src="{{asset('js/emp.js')}}"></script>
 
 </html>
