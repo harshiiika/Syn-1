@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Employee</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
-  <link rel="stylesheet" href= "{{asset('css/emp.css')}}">
+  <link rel="stylesheet" href="{{asset('css/emp.css')}}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
@@ -131,13 +131,17 @@
           <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="menu" id="dropdown-body">
-                <li><a class="item" href="/student management/inq/inq.html"><i class="fa-solid fa-circle-info" id="side-icon"></i> Inquiry
+                <li><a class="item" href="/student management/inq/inq.html"><i class="fa-solid fa-circle-info"
+                      id="side-icon"></i> Inquiry
                     Management</a></li>
-                <li><a class="item" href="/student management/stu onboard/onstu.html"><i class="fa-solid fa-user-check" id="side-icon"></i>Student Onboard</a>
+                <li><a class="item" href="/student management/stu onboard/onstu.html"><i class="fa-solid fa-user-check"
+                      id="side-icon"></i>Student Onboard</a>
                 </li>
-                <li><a class="item" href="/student management/pending/pending.html"><i class="fa-solid fa-user-check" id="side-icon"></i>Pending Fees
+                <li><a class="item" href="/student management/pending/pending.html"><i class="fa-solid fa-user-check"
+                      id="side-icon"></i>Pending Fees
                     Students</a></li>
-                <li><a class="item" href="/student management/students/stu.html"><i class="fa-solid fa-user-check" id="side-icon"></i>Students</a></li>
+                <li><a class="item" href="/student management/students/stu.html"><i class="fa-solid fa-user-check"
+                      id="side-icon"></i>Students</a></li>
               </ul>
             </div>
           </div>
@@ -153,7 +157,8 @@
           <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="menu" id="dropdown-body">
-                <li><a class="item" href="/fees management/collect/collect.html"><i class="fa-solid fa-credit-card" id="side-icon"></i> Fees Collection</a>
+                <li><a class="item" href="/fees management/collect/collect.html"><i class="fa-solid fa-credit-card"
+                      id="side-icon"></i> Fees Collection</a>
                 </li>
               </ul>
             </div>
@@ -170,8 +175,10 @@
           <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="menu" id="dropdown-body">
-                <li><a class="item" href="/attendance management/students/student.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Student</a></li>
-                <li><a class="item" href="/attendance management/employee/employee.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Employee</a></li>
+                <li><a class="item" href="/attendance management/students/student.html"> <i class="fa-solid fa-user"
+                      id="side-icon"> </i>Student</a></li>
+                <li><a class="item" href="/attendance management/employee/employee.html"> <i class="fa-solid fa-user"
+                      id="side-icon"> </i>Employee</a></li>
               </ul>
             </div>
           </div>
@@ -187,8 +194,10 @@
           <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="menu" id="dropdown-body">
-                <li><a class="item" href="/study material/units/units.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Units</a></li>
-                <li><a class="item" href="/study material/dispatch/dispatch.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Dispatch Material</a></li>
+                <li><a class="item" href="/study material/units/units.html"> <i class="fa-solid fa-user" id="side-icon">
+                    </i>Units</a></li>
+                <li><a class="item" href="/study material/dispatch/dispatch.html"> <i class="fa-solid fa-user"
+                      id="side-icon"> </i>Dispatch Material</a></li>
               </ul>
             </div>
           </div>
@@ -204,7 +213,8 @@
           <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="menu" id="dropdown-body">
-                <li><a class="item" href="/testseries/test.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Test Master</i></a></li>
+                <li><a class="item" href="/testseries/test.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Test
+                    Master</i></a></li>
               </ul>
             </div>
           </div>
@@ -220,12 +230,17 @@
           <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
               <ul class="menu" id="dropdown-body">
-                <li><a class="item" href="/reports/walk in/walk.html"> <i class="fa-solid fa-user" id="side-icon"> </i>Walk In</a></li>
-                <li><a class="item" href="/reports/att/att.html"><i class="fa-solid fa-calendar-days" id="side-icon"></i> Attendance</a>
+                <li><a class="item" href="/reports/walk in/walk.html"> <i class="fa-solid fa-user" id="side-icon">
+                    </i>Walk In</a></li>
+                <li><a class="item" href="/reports/att/att.html"><i class="fa-solid fa-calendar-days"
+                      id="side-icon"></i> Attendance</a>
                 </li>
-                <li><a class="item" href="/reports/test/test.html"><i class="fa-solid fa-file" id="side-icon"></i>Test Series</a></li>
-                <li><a class="item" href="/reports/inq/inq.html"><i class="fa-solid fa-file" id="side-icon"></i>Inquiry History</a></li>
-                <li><a class="item" href="/reports/onboard/onboard.html"><i class="fa-solid fa-file" id="side-icon"></i>Onboard History</a></li>
+                <li><a class="item" href="/reports/test/test.html"><i class="fa-solid fa-file" id="side-icon"></i>Test
+                    Series</a></li>
+                <li><a class="item" href="/reports/inq/inq.html"><i class="fa-solid fa-file" id="side-icon"></i>Inquiry
+                    History</a></li>
+                <li><a class="item" href="/reports/onboard/onboard.html"><i class="fa-solid fa-file"
+                      id="side-icon"></i>Onboard History</a></li>
               </ul>
             </div>
           </div>
@@ -261,7 +276,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item">10</a></li>
                 <li><a class="dropdown-item">25</a></li>
-                <li><a class="dropdown-item"> 50</a></li>
+                <li><a class="dropdown-item">50</a></li>
                 <li><a class="dropdown-item">100</a></li>
               </ul>
             </div>
@@ -272,13 +287,13 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
-
         <table class="table table-hover" id="table">
           <thead>
             <tr>
               <th scope="col" id="one">Serial No.</th>
               <th scope="col" id="one">Name</th>
               <th scope="col" id="one">Email</th>
+              <th scope="col" id="one">Mobile No.</th>
               <th scope="col" id="one">Department</th>
               <th scope="col" id="one">Role</th>
               <th scope="col" id="one">Status</th>
@@ -287,230 +302,178 @@
           </thead>
           <tbody>
             <tr>
-              <td>1</td>
-              <td>Arti </td>
-              <td>maru@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                 <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Harsh</td>
-              <td>harsh@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Nitin</td>
-              <td>nitin@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Bhavna</td>
-              <td>bhavna@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>harshita</td>
-              <td>harshita@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Meenal</td>
-              <td>meenal@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                 <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>Aditya</td>
-              <td>aditya@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-               <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>8
-              </td>
-              <td>Palak</td>
-              <td>palak@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-              <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>Shiv</td>
-              <td>shiv@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                   <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>Ansh</td>
-              <td>ansh@gmail.com</td>
-              <td>Office</td>
-              <td>Front Office</td>
-              <td>Active</td>
-              <td>
-                <div class="dropdown">
-                  <button class="btn btn-secondary " type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    id="ellipsis"><i class="fa-solid fa-ellipsis-vertical" style="color: #000;"></i></button>
-
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalThree"
-                        id="editBtn">Edit</a></li>
-                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFour">View
-                        details</a></li>
-                 <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModalFive">Password Update</a></li>
-                    <li><a class="dropdown-item">Deactive</a></li>
-                  </ul>
-                </div>
             </tr>
           </tbody>
+ <!-- Table fillables are present here -->
+
+        @foreach($users as $index => $user)
+        <tr>
+        <td>{{ $index + 1 }}</td>
+        <td>{{ $user->name }}</td>
+        <td>{{ $user->email }}</td>
+        <td>{{ $user->mobile }}</td>
+        <td>{{ $user->department ?? '—' }}</td>
+        <td>{{ $user->role ?? '—' }}</td>
+        <td>
+          <span class="badge {{ $user->status === 'Deactivated' ? 'bg-danger' : 'bg-success' }}">
+          {{ $user->status }}
+          </span>
+        </td>
+        <td>
+          <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="actionMenuButton"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-three-dots-vertical" style="color: #000000;"></i>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="actionMenuButton">
+            <li>
+            <button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#viewModal{{ $user->id }}">
+              View Details
+            </button>
+            </li>
+            <li>
+            <button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#editModal{{ $user->id }}">
+              Edit Details
+            </button>
+            </li>
+            <li>
+            <button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#passwordModal{{ $user->id }}">
+              Password Update
+            </button>
+            </li>
+            <li>
+            <form method="POST" action="{{ route('users.toggleStatus', $user->id) }}">
+              @csrf
+              <button type="submit" class="dropdown-item">
+              {{ $user->status === 'Active' ? 'Deactivate' : 'Reactivate' }}
+              </button>
+            </form>
+            </li>
+          </ul>
+          </div>
+
+        </td>
+        </tr>
+      @endforeach
+<!-- Here options modals are present. -->
 
         </table>
+        @foreach($users as $user)
+      <div class="modal fade" id="viewModal{{ $user->id }}" tabindex="-1"
+        aria-labelledby="viewModalLabel{{ $user->id }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="viewModalLabel{{ $user->id }}">Employee Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" value="{{ $user->name }}" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="text" class="form-control" value="{{ $user->email }}" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Mobile</label>
+            <input type="text" class="form-control" value="{{ $user->mobile }}" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Alternate Mobile</label>
+            <input type="text" class="form-control" value="{{ $user->alt_mobile }}" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Branch</label>
+            <input type="text" class="form-control" value="{{ $user->branch }}" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Role</label>
+            <input type="text" class="form-control" value="{{ $user->role }}" readonly>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="modal fade" id="editModal{{ $user->id }}" tabindex="-1"
+        aria-labelledby="editModalLabel{{ $user->id }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <form method="POST" action="{{ route('users.update', $user->id) }}" enctype="multipart/form-data">
+          @csrf
+          @method('PUT')
+          <div class="modal-header">
+            <h5 class="modal-title" id="editModalLabel{{ $user->id }}">Edit Employee Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" value="{{ $user->name }}">
+            </div>
+            <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="text" class="form-control" name="email" value="{{ $user->email }}">
+            </div>
+            <div class="mb-3">
+            <label class="form-label">Mobile</label>
+            <input type="text" class="form-control" name="mobile" value="{{ $user->mobile }}">
+            </div>
+            <div class="mb-3">
+            <label class="form-label">Alternate Mobile</label>
+            <input type="text" class="form-control" name="alt_mobile" value="{{ $user->alt_mobile }}">
+            </div>
+            <div class="mb-3">
+            <label class="form-label">Branch</label>
+            <input type="text" class="form-control" name="branch" value="{{ $user->branch }}">
+            </div>
+            <div class="mb-3">
+            <label class="form-label">Role</label>
+            <input type="text" class="form-control" name="role" value="{{ $user->role }}">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Update</button>
+          </div>
+          </form>
+        </div>
+        </div>
+      </div>
+      <div class="modal fade" id="passwordModal{{ $user->id }}" tabindex="-1"
+        aria-labelledby="passwordModalLabel{{ $user->id }}" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+          <form method="POST" action="{{ route('users.password.update', $user->id) }}">
+          @csrf
+          @method('PUT')
+          <div class="modal-header">
+            <h5 class="modal-title" id="passwordModal{{ $user->id }}">Update Password</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+            <label class="form-label">Current Password</label>
+            <input type="password" name="current_password" class="form-control" required>
+            </div>
+            <div class="mb-3">
+            <label class="form-label">New Password</label>
+            <input type="password" name="new_password" class="form-control" required>
+            </div>
+            <div class="mb-3">
+            <label class="form-label">Confirm New Password</label>
+            <input type="password" name="confirm_new_password" class="form-control" required>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Update Password</button>
+          </div>
+          </form>
+        </div>
+        </div>
+      </div>
 
+    @endforeach
       </div>
       <div class="footer">
         <div class="left-footer">
@@ -532,9 +495,9 @@
     </div>
   </div>
   </div>
+<!-- Modal Form with fillables for add employee starts here -->
 
   <div class="modal fade" id="exampleModalOne" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content" id="content-one">
         <div class="modal-header">
@@ -542,97 +505,100 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-
-          <div class="mb-3">
-            <label for="basic-url" class="form-label">Mobile No.</label>
-            <div class="input-group">
-              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4"
-                placeholder="Enter Your Mobile Number" required>
-            </div>
-
+          <form method="POST" action="{{ route('users.add') }}">
+            @csrf
             <div class="mb-3">
-              <label for="basic-url" class="form-label">Alternate Mobile No.</label>
+              <label for="basic-url" class="form-label">Name</label>
               <div class="input-group">
-                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4"
-                  placeholder="Enter Your Alternate Mobile Number" required>
+                <input type="text" name="name" class="form-control" id="basic-url"
+                  aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Your Name" required>
               </div>
-
               <div class="mb-3">
-                <label for="basic-url" class="form-label">Email</label>
+                <label for="basic-url" class="form-label">Mobile No.</label>
                 <div class="input-group">
-                  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4"
-                    placeholder="Enter Your Email id" required>
+                  <input type="text" name="mobile" class="form-control" id="basic-url"
+                    aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Your Mobile Number" required>
                 </div>
 
-
                 <div class="mb-3">
-                  <label for="basic-url" class="form-label">Select Branch Name</label>
+                  <label for="basic-url" class="form-label">Alternate Mobile No.</label>
                   <div class="input-group">
+                    <input type="text" name="alt_mobile" class="form-control" id="basic-url"
+                      aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Your Alternate Mobile Number"
+                      required>
+                  </div>
 
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" id="number" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Select Branch Name
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item">Select Branch Name</a></li>
-                        <li><a class="dropdown-item">Bikaner</a></li>
-                      </ul>
+                  <div class="mb-3">
+                    <label for="basic-url" class="form-label">Email</label>
+                    <div class="input-group">
+                      <input type="email" name="email" class="form-control" id="basic-url"
+                        aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Your Email id" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="basic-url" class="form-label">Select Branch</label>
+                      <div class="input-group">
+
+                        <div class="dropdown">
+                          <select class="form-select" name="branch" required>
+                            <option selected disabled>Select Branch</option>
+                            <option value="Bikaner ">Bikaner</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="basic-url" class="form-label">Select Role</label>
+                      <div class="input-group">
+
+                        <div class="dropdown">
+                          <select class="form-select" name="role" required>
+                            <option selected disabled>Select Role</option>
+                            <option value="Front Office">Front Office</option>
+                            <option value="Back Office">Back Office</option>
+                            <option value="Office">Office</option>
+                            <option value="Test Management">Test Management</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="basic-url" class="form-label">Password</label>
+                      <div class="input-group">
+                        <input type="text" name="password" class="form-control" id="basic-url"
+                          aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Password" required>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="basic-url" class="form-label">Confirm Password</label>
+                      <div class="input-group">
+                        <input type="text" name="confirm_password" class="form-control" id="basic-url"
+                          aria-describedby="basic-addon3 basic-addon4" placeholder="Enter Confirm Password" required>
+                        @error('confirm_password')
+              <div class="text-danger">{{ $message }}</div>
+            @enderror
+
+                      </div>
+                    </div>
+                    <div class="input-group mb-3">
+                      <input type="file" class="form-control" id="inputGroupFile01">
                     </div>
                   </div>
-
-                </div>
-                <div class="mb-3">
-                  <label for="basic-url" class="form-label">Select Role</label>
-                  <div class="input-group">
-
-                    <div class="dropdown">
-                      <button class="btn btn-secondary dropdown-toggle" id="number" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Select Role
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item">Teacher</a></li>
-                        <li><a class="dropdown-item">Back Office</a></li>
-                        <li><a class="dropdown-item">Front Office</a></li>
-                        <li><a class="dropdown-item">Floor Incharge</a></li>
-                        <li><a class="dropdown-item">Account Executive</a></li>
-                        <li><a class="dropdown-item">Test Series Executive</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="basic-url" class="form-label">Password</label>
-                  <div class="input-group">
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4"
-                      placeholder="Enter Password" required>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="basic-url" class="form-label">Confirm Password</label>
-                  <div class="input-group">
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4"
-                      placeholder="Enter Confirm Password" required>
-                  </div>
-                </div>
-                <div class="input-group mb-3">
-                  <input type="file" class="form-control" id="inputGroupFile01">
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="modal-footer" id="footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="submit">Cancel</button>
-          <button type="button" class="btn btn-primary" id="add">Submit</button>
+            <div class="modal-footer" id="footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="submit">Cancel</button>
+              <button type="submit" class="btn btn-primary" id="add">Submit</button>
+            </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="modal fade" id="exampleModalTwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      
+    <div class="modal fade" id="exampleModalTwo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+
         <div class="modal-dialog">
           <div class="modal-content" id="modal-two">
             <div class="modal-header">
@@ -770,38 +736,74 @@
     </div>
 
   </div>
-    <div class="modal fade" id="exampleModalFive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModalFive" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-dialog">
-          <div class="modal-content" id="modal-two">
-            <div class="modal-header">
-              <h2 class="modal-title fs-5" id="exampleModalLabel">Update Password</h2>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
+      <div class="modal-dialog">
+        <div class="modal-content" id="modal-two">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="exampleModalLabel">Update Password</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
 
-            <div class="modal-body" >
+          <div class="modal-body">
             <form id="pass">
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Password</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-</form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="submit">Close</button>
-              <button type="button" class="btn btn-primary" id="add">Update</button>
-            </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Password</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss ="modal" id="submit">Close</button>
+            <button type="button" class="btn btn-primary" id="add">Update</button>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 <script src="{{asset('js/emp.js')}}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $('#addUserForm').on('submit', function (e) {
+    e.preventDefault();
+    $('.text-danger').text('');
+
+    $.ajax({
+      url: "{{ route('users.add') }}",
+      method: 'POST',
+      data: $(this).serialize(),
+      success: function (response) {
+        if (response.status === 'success') {
+          $('#addUserModal').modal('hide');
+          $('#addUserForm')[0].reset();
+
+          // Append user to table
+          $('#users-table tbody').append(`
+                    <tr>
+                        <td>${response.user.name}</td>
+                        <td>${response.user.email}</td>
+                        <td>${response.user.phone}</td>
+                    </tr>
+                `);
+        }
+      },
+      error: function (xhr) {
+        if (xhr.status === 422) {
+          const errors = xhr.responseJSON.errors;
+          for (let field in errors) {
+            $(`#error-${field}`).text(errors[field][0]);
+          }
+        }
+      }
+    });
+  });
+</script>
 
 </html>

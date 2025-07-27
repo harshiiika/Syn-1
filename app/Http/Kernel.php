@@ -43,6 +43,7 @@ class Kernel extends HttpKernel
 
     /**
      * Middleware registered individually to routes.
+     * Has list of all middleware routes
      */
 
     protected $routeMiddleware = [
@@ -52,7 +53,7 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'loggedin' => \App\Http\Middleware\EnsureUserIsLoggedIn::class,
         'is_admin' => \App\Http\Middleware\IsAdmin::class,
-
+        'admin.check' => \App\Http\Middleware\IsAdmin::class,
     ];
 
 }

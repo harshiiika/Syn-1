@@ -1,15 +1,24 @@
 <?php
 
 use App\Http\Controllers\LoginController;
+use App\Models\User;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
 
 Route::get('/', fn () => redirect('/login'));
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login'])->name('login.submit');
-Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
-Route::middleware(['auth'])->group(function () {
+Route::middleware(['auth:admin'])->group(function () {
     Route::get('/emp', function () {
-        return view('emp.emp'); // ✅ Looks for resources/views/emp/emp.blade.php
+        $users = User::all();
+        return view('emp.emp', compact('users'));
     })->name('emp');
+
+    Route::post('/users/add', [AdminController::class, 'addUser'])->name('users.add');
+    Route::post('/users/add', [UserController::class, 'addUser'])->name('users.add');
+    Route::put('/users/update/{id}', [UserController::class, 'updateUser'])->name('users.update');
+    Route::put('/users/update-password/{id}', [UserController::class, 'updatePassword'])->name('users.password.update');
+    Route::post('/users/toggle-status/{id}', [UserController::class, 'toggleStatus'])->name('users.toggleStatus');
 });

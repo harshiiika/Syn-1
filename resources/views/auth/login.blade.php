@@ -12,11 +12,10 @@
     <div class="signin">
  
         <div class="container">
-           
-                <img src="https://synthesisbikaner.org/synthesistest/assets/background%20logo.png" alt="logo"
+
+                <img src="{{ asset('https://synthesisbikaner.org/synthesistest/assets/background%20logo.png') }}" alt="logo"
                     class="logo">
-           
- 
+
                @if ($errors->any())
     <div style="color: red;">
         <ul>
