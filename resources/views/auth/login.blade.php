@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
  
-<body>
+<body style="background-image: url('{{ asset('images/motion graphic background_12.0de2e3ff0dd28bfa.png') }}'); background-size: cover;">
     <div class="signin">
  
         <div class="container">
 
-                <img src="{{ asset('https://synthesisbikaner.org/synthesistest/assets/background%20logo.png') }}" alt="logo"
+                <img src="{{ asset('images/background logo.png') }}" alt="logo"
                     class="logo">
 
                @if ($errors->any())
