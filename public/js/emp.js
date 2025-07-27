@@ -39,4 +39,7 @@ const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
 
 
- 
+ $('.dropdown-item').click(function() {
+  const selectedText = $(this).text();
+  $(this).closest('.dropdown').find('.dropdown-toggle').text(selectedText);
+});

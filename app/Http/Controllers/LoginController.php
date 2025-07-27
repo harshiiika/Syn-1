@@ -1,9 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use App\Models\Admin;
+use Illuminate\Support\Facades\Log;
+
 
 class LoginController extends Controller
 {
@@ -12,43 +15,31 @@ class LoginController extends Controller
      */
     public function showLoginForm()
     {
-        return view('auth.login'); // Blade file: resources/views/auth/login.blade.php
+        return view('auth.login'); 
     }
 
     /**
      * Handle the login request
+     * Checks Login info, credentials, and redirects accordingly.
      */
-    public function login(Request $request)
-    {
-        // Validate form data
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ]);
+public function login(Request $request)
+{
+    Log::info('Login attempt started');
 
-        // Attempt to login
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
+    $request->validate([
+        'email' => ['required', 'email'],
+        'password' => ['required'],
+    ]);
 
-            return redirect()->intended('/emp'); // Redirect to /emp if successful
-        }
-
-        // If login fails
-        return back()->withErrors([
-            'email' => 'Invalid email or password.',
-        ])->onlyInput('email');
+    if (Auth::guard('admin')->attempt($request->only('email', 'password'))) {
+        Log::info('Admin login successful');
+        return redirect()->route('emp');
     }
 
-    /**
-     * Logout the user
-     */
-    public function logout(Request $request)
-    {
-        Auth::logout();
+    Log::warning('Admin login failed: invalid credentials');
+    return back()->withErrors([
+        'email' => 'Invalid email or password.',
+    ]);
+}
 
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
-
-        return redirect('/login');
-    }
 }
